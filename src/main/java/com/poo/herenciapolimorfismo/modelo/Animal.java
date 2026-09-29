@@ -25,22 +25,22 @@ public class Animal {
     }
     
      public void hacerSonido() {
-    System.out.println(" Sonido genérico");
-  }
-     
-      
-  // Versión 1: sin parámetros
-  public void comer() {
-    System.out.println(nombre + " está comiendo");
-  }
-  
-  // Versión 2: con 1 parámetro (String)
-  public void comer(String comida) {
-    System.out.println(nombre + " come " + comida);
-  }  
-  // Versión 3: con 2 parámetros (String, int)
-  public void comer(String comida, int cantidad) {
-    System.out.println(nombre + " come " + cantidad +
-      " porciones de " + comida);
-  }
+    System.out.println("Sonido genérico");
+    }
+
+
+    // Versión 1: sin parámetros
+    public void comer() {
+      System.out.println(nombre + " está comiendo");
+    }
+
+    // Versión 2: con 1 parámetro (String)
+    public void comer(String comida) {
+      System.out.println(nombre + " come " + comida);
+    }  
+    // Versión 3: con 2 parámetros (String, int)
+    public void comer(String comida, int cantidad) {
+      System.out.println(nombre + " come " + cantidad +
+        " porciones de " + comida);
+    }
 }
