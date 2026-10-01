@@ -16,12 +16,11 @@ public class Perro extends Animal {
 
     public Perro() {
         super("Pongo");
-    }
- 
+    } 
     
-  @Override
-  public void hacerSonido() {
-    System.out.println(super.getNombre()+ " hace Guau guau!");
-  }
+    @Override
+    public void hacerSonido() {
+      System.out.println(super.getNombre()+ " hace Guau guau!");
+    }
 }
 

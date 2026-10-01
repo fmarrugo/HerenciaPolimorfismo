@@ -10,10 +10,13 @@ package com.poo.herenciapolimorfismo.modelo;
  */
 public class Pez extends Animal {
     
-    public Pez(String nombre) {
+    private int profundidad;
+
+    public Pez(String nombre, int profundidad) {
         super(nombre);
+        this.profundidad = 0;
     }
-    
+
     public Pez() {
         super("Dory");
     }
@@ -21,7 +24,18 @@ public class Pez extends Animal {
     
     @Override
     public void hacerSonido() {
+        System.out.println(super.getNombre()+ " hace glu glu!");
+      }
     
-    System.out.println(super.getNombre()+ " hace glu glu!");
-  }
+    @Override
+    public void nadar() {    
+        profundidad += 10;
+        System.out.println(super.getNombre()+ " esta a una profundidad de " + profundidad);
+    }
+    
+    @Override
+    public void comer(String algas){
+        System.out.println(super.getNombre()+ " esta comiendo "+ algas);
+    }
+    
 }

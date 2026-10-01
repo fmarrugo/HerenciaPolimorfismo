@@ -24,8 +24,12 @@ public class Animal {
         this.nombre = nombre;
     }
     
-     public void hacerSonido() {
-    System.out.println("Sonido genérico");
+    public void hacerSonido() {
+        System.out.println("Sonido genérico");
+    }
+    
+    public void nadar(){
+        System.out.println("Si aplica");
     }
 
 

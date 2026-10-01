@@ -16,9 +16,10 @@ public class Gato extends Animal {
        public Gato() {
         super("Garfield");
     }
-  @Override
-  public void hacerSonido() {
-    
-    System.out.println(super.getNombre()+ " hace Miau miau!");
-  }
+       
+    @Override
+    public void hacerSonido() {
+
+      System.out.println(super.getNombre()+ " hace Miau miau!");
+    }
 }
