@@ -23,7 +23,7 @@ public class Pajaro extends Animal{
 
     @Override
     public void hacerSonido() {
-        System.out.println("Toc toc toc!");
+        System.out.println(super.getNombre() + " hace toc toc toc!");
     }
     
     @Override

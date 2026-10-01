@@ -18,7 +18,7 @@ public class PerroGrande extends Perro {
 
     @Override
     public void hacerSonido() {
-        System.out.println("¡¡GUAAAAUUUUUUU!!");
+        System.out.println(super.getNombre() + " hace ¡¡GUAAAAUUUUUUU!!");
     }
 
     public int getPesoKg() {
