@@ -29,7 +29,11 @@ public class Animal {
     }
     
     public void nadar(){
-        System.out.println("Si aplica");
+        System.out.println(" ");
+    }
+    
+    public void volar(){
+        System.out.println(" ");
     }
 
 

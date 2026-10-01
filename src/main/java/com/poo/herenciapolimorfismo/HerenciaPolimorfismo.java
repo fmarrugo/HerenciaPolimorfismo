@@ -6,7 +6,9 @@ package com.poo.herenciapolimorfismo;
 
 import com.poo.herenciapolimorfismo.modelo.Animal;
 import com.poo.herenciapolimorfismo.modelo.Gato;
+import com.poo.herenciapolimorfismo.modelo.Pajaro;
 import com.poo.herenciapolimorfismo.modelo.Perro;
+import com.poo.herenciapolimorfismo.modelo.PerroGrande;
 import com.poo.herenciapolimorfismo.modelo.Pez;
 
 /**
@@ -35,12 +37,15 @@ public class HerenciaPolimorfismo {
       new Perro("Rex"),
       new Gato("Silvestre"),
       new Animal("Piolin"),
-      new Pez("Dory", 10)
+      new Pez("Dory", 10),
+      new Pajaro("Pajaro loco"),
+      new PerroGrande("Zeus", "Golden", 2, 20)
     };
 
     for (Animal animal : animales) {
       animal.hacerSonido();
       animal.nadar();// Polimorfismo
+      animal.volar();
     }
 
     }

@@ -13,7 +13,7 @@ public class Gato extends Animal {
     public Gato(String nombre) {
         super(nombre);
     }
-       public Gato() {
+    public Gato() {
         super("Garfield");
     }
        
